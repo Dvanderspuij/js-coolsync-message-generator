@@ -1,0 +1,13 @@
+{
+  "oracle": {
+    "user": "DEVVANESSA",
+    "password": "",
+    "connectString": "SPAWN2"
+  },
+  "coolSyncQueue": {
+    "connection": "amqp://guest:guest@localhost:5672",
+    "exchange": "change-notifications",
+    "queueName": "coolsync-to-catalog",
+    "routingKeys": ["products.property.property"]
+  }
+}

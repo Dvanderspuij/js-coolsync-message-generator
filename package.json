@@ -1,0 +1,21 @@
+{
+  "name": "coolsync-message-generator",
+  "version": "0.1.0",
+  "description": "Generates coolsync messages",
+  "main": "lib/generate.js",
+  "dependencies": {
+    "bluebird": "2.9.x",
+    "coolblue-message-bus-client": "git+https://github.com/coolblue-development/js-coolblue-message-bus-client.git#master",
+    "coolblue-utilities": "git+https://github.com/coolblue-development/js-coolblue-utilities.git#0.8.0",
+    "coolblue-common": "git+https://github.com/coolblue-development/js-coolblue-common.git#0.1.1",
+    "coolblue-injection": "git+https://github.com/coolblue-development/js-coolblue-injection.git#0.3.1",
+    "coolblue-io": "git+https://github.com/coolblue-development/js-coolblue-io.git#0.4.1",
+    "coolblue-logging": "git+https://github.com/coolblue-development/js-coolblue-logging.git#0.5.0",
+    "coolblue-monitoring": "git+https://github.com/coolblue-development/js-coolblue-monitoring.git#0.5.0",
+    "oracledb": "*"
+  },
+  "author": "Coolblue",
+  "license": "Copyright Coolblue BV",
+  "readmeFilename": "README.md",
+  "private": true
+}

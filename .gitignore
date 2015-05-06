@@ -1,0 +1,8 @@
+.DS_STORE
+.idea/dictionaries
+.idea/tasks.xml
+.idea/workspace.xml
+config
+nbproject/private
+node_modules
+npm-debug.log
